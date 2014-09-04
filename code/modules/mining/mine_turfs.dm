@@ -1011,9 +1011,8 @@
 	intact=0
 	icon_state="asteroidplating"
 
-/turf/unsimulated/floor/asteroid/cave_floor
+/turf/simulated/floor/plating/cave_floor
 	icon = 'icons/turf/ground.dmi'
 	icon_state = "wground1"
 	name = "cave floor"
 	temperature = T0C+25
-//	dug = 1
