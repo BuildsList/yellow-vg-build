@@ -169,7 +169,6 @@
 	icon = 'flora_red.dmi'
 	icon_state = "red_1"
 	layer = 2.1
-	color = GLOW_RED
 	l_color = GLOW_RED
 	var/endurance = 30
 	var/potency = 30
@@ -190,7 +189,6 @@
 	icon = 'flora_green.dmi'
 	icon_state = "green_1"
 	layer = 2.1
-	color = GLOW_GREEN
 	l_color = GLOW_GREEN
 	var/endurance = 30
 	var/potency = 30
@@ -210,7 +208,6 @@
 	icon = 'flora_blue.dmi'
 	icon_state = "gay_1"
 	layer = 2.1
-	color = GLOW_BLUE
 	l_color = GLOW_BLUE
 	var/endurance = 30
 	var/potency = 30
