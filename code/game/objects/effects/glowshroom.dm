@@ -1,5 +1,9 @@
 //separate dm since hydro is getting bloated already
 
+#define GLOW_RED "#FF6600" // It's a orange!
+#define GLOW_GREEN "#00FF00"
+#define GLOW_BLUE "#0000FF"
+
 /obj/effect/glowshroom
 	name = "glowshroom"
 	anchored = 1
@@ -155,3 +159,65 @@
 /obj/effect/glowshroom/proc/CheckEndurance()
 	if(endurance <= 0)
 		del(src)
+
+
+/obj/effect/redflora
+	name = "red glowing flora"
+	anchored = 1
+	opacity = 0
+	density = 0
+	icon = 'flora_red.dmi'
+	icon_state = "red_1"
+	layer = 2.1
+	color = GLOW_RED
+	l_color = GLOW_RED
+	var/endurance = 30
+	var/potency = 30
+	var/delay = 1200
+	var/floor = 0
+	var/yield = 3
+	var/spreadChance = 40
+	var/spreadIntoAdjacentChance = 60
+	var/evolveChance = 2
+	w_type=NOT_RECYCLABLE
+
+
+/obj/effect/greenflora
+	name = "green glowing flora"
+	anchored = 1
+	opacity = 0
+	density = 0
+	icon = 'flora_green.dmi'
+	icon_state = "green_1"
+	layer = 2.1
+	color = GLOW_GREEN
+	l_color = GLOW_GREEN
+	var/endurance = 30
+	var/potency = 30
+	var/delay = 1200
+	var/floor = 0
+	var/yield = 3
+	var/spreadChance = 40
+	var/spreadIntoAdjacentChance = 60
+	var/evolveChance = 2
+	w_type=NOT_RECYCLABLE
+
+/obj/effect/blueflora
+	name = "blie glowing flora"
+	anchored = 1
+	opacity = 0
+	density = 0
+	icon = 'flora_blue.dmi'
+	icon_state = "gay_1"
+	layer = 2.1
+	color = GLOW_BLUE
+	l_color = GLOW_BLUE
+	var/endurance = 30
+	var/potency = 30
+	var/delay = 1200
+	var/floor = 0
+	var/yield = 3
+	var/spreadChance = 40
+	var/spreadIntoAdjacentChance = 60
+	var/evolveChance = 2
+	w_type=NOT_RECYCLABLE
