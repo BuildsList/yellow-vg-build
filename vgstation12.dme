@@ -42,6 +42,7 @@
 #define FILE_DIR "icons/obj/clothing"
 #define FILE_DIR "icons/obj/doors"
 #define FILE_DIR "icons/obj/flora"
+#define FILE_DIR "icons/obj/flora/colored"
 #define FILE_DIR "icons/obj/machines"
 #define FILE_DIR "icons/obj/pipes"
 #define FILE_DIR "icons/pda_icons"
