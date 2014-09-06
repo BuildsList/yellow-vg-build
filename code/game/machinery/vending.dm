@@ -981,3 +981,11 @@
 	products = list(/obj/item/weapon/reagent_containers/food/drinks/groans = 10,/obj/item/weapon/reagent_containers/food/drinks/filk = 10,/obj/item/weapon/reagent_containers/food/drinks/soda_cans/grifeo = 10,/obj/item/weapon/reagent_containers/food/drinks/mannsdrink = 10)
 	prices = list(/obj/item/weapon/reagent_containers/food/drinks/groans = 20,/obj/item/weapon/reagent_containers/food/drinks/filk = 20,/obj/item/weapon/reagent_containers/food/drinks/soda_cans/grifeo = 30,/obj/item/weapon/reagent_containers/food/drinks/mannsdrink = 10,/obj/item/weapon/reagent_containers/food/drinks/groansbanned = 50)
 	contraband = list(/obj/item/weapon/reagent_containers/food/drinks/groansbanned = 10)
+
+
+/obj/machinery/vending/ammo
+	name = "Sgt. McMurders's ammo supplies."
+	desc = "A machine vending every kind of pill for curing Defiance."
+	vend_reply = "Kill'em all!"
+	icon_state = "ammo"
+	products = list() //Needs to be filled as soon as weapons are ready.
