@@ -1,9 +1,0 @@
-// BEGIN_INTERNALS
-/*
-MAP_ICON_TYPE: 0
-LAST_COMPILE_VERSION: 504.1234
-DIR: code code\controllers code\defines code\defines\obj code\game code\game\jobs code\game\machinery code\game\machinery\atmoalter code\game\machinery\computer code\game\machinery\doors code\game\objects code\game\objects\effects code\game\objects\effects\decals code\game\objects\items code\game\objects\items\weapons code\game\objects\structures code\game\objects\structures\crates_lockers code\game\objects\structures\crates_lockers\closets code\game\objects\structures\crates_lockers\closets\secure code\modules code\modules\mining icons icons\effects icons\obj maps maps\RandomZLevels sound sound\machines sound\vox sound\vox_fem 
-LAST_COMPILE_TIME: 1409868986
-AUTO_FILE_DIR: ON
-*/
-// END_INTERNALS
