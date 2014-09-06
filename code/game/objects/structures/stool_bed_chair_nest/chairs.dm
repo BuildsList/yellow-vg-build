@@ -113,6 +113,12 @@
 	else
 		..()
 
+//Church pews
+/obj/structure/stool/bed/chair/wood/pew
+	name = "pew"
+	desc = "A bench for sleeping at masses."
+	icon_state = "pews"
+
 /obj/structure/stool/bed/chair/holowood/normal
 	icon_state = "wooden_chair"
 	name = "wooden chair"
@@ -203,3 +209,4 @@
 
 /obj/structure/stool/bed/chair/comfy/couch/teal/middle
 	icon_state = "couchteal_middle"
+
