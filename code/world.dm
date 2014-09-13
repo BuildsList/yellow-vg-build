@@ -3,6 +3,7 @@
 	turf = /turf/space
 	view = "15x15"
 	cache_lifespan = 0	//stops player uploaded stuff from being kept in the rsc past the current session
+	//map_format = ISOMETRIC_MAP //HUEHUEHE
 
 #define RECOMMENDED_VERSION 501
 /world/New()
