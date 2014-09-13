@@ -712,7 +712,7 @@
 "nJ" = (/obj/effect/decal/cleanable/blood/gibs/robot,/turf/simulated/floor{icon_state = "dark"},/area)
 "nK" = (/obj/effect/decal/cleanable/generic,/turf/simulated/floor/bluegrid,/area)
 "nL" = (/obj/effect/decal/remains/human,/turf/simulated/floor{icon_state = "dark"},/area)
-"nM" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/bluegrid,/area)
+"nM" = (/obj/machinery/turret{dir = 8},/turf/simulated/floor/bluegrid,/area)
 "nN" = (/turf/simulated/floor{tag = "icon-blue_chess (WEST)"; icon_state = "blue_chess"; dir = 8},/area)
 "nO" = (/obj/structure/stool{pixel_y = 8},/turf/simulated/floor{tag = "icon-blue_chess (WEST)"; icon_state = "blue_chess"; dir = 8},/area)
 "nP" = (/turf/simulated/floor{tag = "icon-bluerustycorner"; icon_state = "bluerustycorner"; dir = 2},/area)
