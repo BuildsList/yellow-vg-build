@@ -92,8 +92,22 @@ LINEN BINS
 	icon_state = "sheetbrown"
 	_color = "brown"
 
+/obj/item/weapon/bedsheet/qm
+	icon_state = "sheetqm"
+	_color = "brown"
 
+/obj/item/weapon/bedsheet/syndie
+	icon_state = "sheetsyndie"
 
+/obj/item/weapon/bedsheet/cult
+	icon_state = "sheetcult"
+
+/obj/item/weapon/bedsheet/wizard
+	icon_state = "sheetwiz"
+
+/obj/item/weapon/bedsheet/cmo
+	icon_state = "sheetcmo"
+	_color = "medical"
 
 /obj/structure/bedsheetbin
 	name = "linen bin"
