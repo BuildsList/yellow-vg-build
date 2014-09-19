@@ -39,14 +39,14 @@
 	load_admins()
 	load_mods()
 	LoadBansjob()
-	if(config.usewhitelist)
-		load_whitelist()
+/*	if(config.usewhitelist)
+		load_whitelist()*/
 	if(config.usealienwhitelist)
 		load_alienwhitelist()
 	jobban_loadbanfile()
 	jobban_updatelegacybans()
 	appearance_loadbanfile()
-	load_bwhitelist()
+//	load_bwhitelist()
 	LoadBans()
 	SetupHooks() // /vg/
 
