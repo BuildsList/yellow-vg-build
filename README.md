@@ -1,4 +1,4 @@
-# Animus Station 13
+# Polar Station 13
 
 [Website](http://ss13.ru) - [Code(Base)](https://github.com/AnimusBlack/vgstation13)
 
