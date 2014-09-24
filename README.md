@@ -1,29 +1,8 @@
 # Animus Station 13
 
-[Website](http://ss13.ru) - [Code](https://github.com/AnimusBlack/vgstation13)
+[Website](http://ss13.ru) - [Code(Base)](https://github.com/AnimusBlack/vgstation13)
 
 ---
-
-### GETTING THE CODE
-The simplest way to obtain the code is using the github .zip feature.
-
-Click [here](https://github.com/AnimusBlack/vgstation13/archive/master.zip) to get the latest stable code as a .zip file, then unzip it to wherever you want.
-
-The more complicated and easier to update method is using git.  You'll need to download git or some client from [here](http://git-scm.com/).  When that's installed, right click in any folder and click on "Git Bash".  When that opens, type in:
-
-    git clone https://github.com/AnimusBlack/vgstation13.git
-
-(hint: hold down ctrl and press insert to paste into git bash)
-
-This will take a while to download, but it provides an easier method for updating.
-
-#### Branches
-
-Keep in mind that we have multiple branches for various purposes.
-
-* *master* - "stable" code, used on the main server.
-* *Bleeding-Edge* - The latest unstable code.  _Please do any development against this branch!_
-
 ### INSTALLATION
 
 First-time installation should be fairly straightforward.  First, you'll need BYOND installed.  You can get it from [here](http://www.byond.com/).
@@ -78,9 +57,3 @@ For a basic setup, simply copy every file from config-example/ to config/.
 The SQL backend for the library and stats tracking requires a MySQL server.  (Linux servers will need to put libmysql.so into the same directory as baystation12.dme.)  Your server details go in /config/dbconfig.txt.
 
 We've included a web control panel with some sample data readouts.  It's recommended to install the database through sphinx, which is included and includes some updates.
-
----
-
-### IRC Bot Setup
-
-Included in the repo is an IRC bot capable of relaying adminhelps to a specified IRC channel/server (replaces the older one by Skibiliano).  Instructions for bot setup are included in the /bot/ folder along with the bot/relay script itself.
